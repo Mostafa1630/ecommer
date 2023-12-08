@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carts</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="cart-body">
+
+  <script>
+    function actionToggle() {
+      let action = document.querySelector('.contact-action');
+      action.classList.toggle('open');
+      }
+      </script>
+
+      <!-- start contact-action  -->
+        <div class="contact-action">
+            <div class="item" onclick="actionToggle();">
+              <i class="fa fa-list-alt" aria-hidden="true"></i>
+              <p style="line-height:12pt;"> تواصل معنا</p>
+            </div>
+            
+            <span class="item">  <a href=""><i class="fa-solid fa-envelope"></i></a> الايميل </span>
+            <span class="item"><a href=""><i class="fa-brands fa-whatsapp"></i></i></a>الوتساب</span>
+            <span class="item"> <a href=""><i class="fa-solid fa-paper-plane"></i></a>تليجرام</span>
+          </div>
+          
+    <!-- end contact-action -->
+    <div class="setting">
+      <div class="phone">
+        <i class="fa-solid fa-phone"></i>
+        <a href=“tel:+962777515306”>962777515306+</a>
+      </div>
+      <div class="user">
+        <div class="inside">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            تسجيل الدخول
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">البريد الاكتروني</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ادخل البريد الاكتروني">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">كود تفعيل</label>
+                    <input type="text" class="form-control" id="exampleFormControlTextarea1">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <form>
+          <input type="submit" value="تسجيل الخروج">
+        </form>
+  
+      </div>
+    </div>
+  
+    <div class="sidebar" id="sidebar">
+      <div class="top">
+        <div class="content">
+          <span id="closed">
+            <i class="fa-solid fa-xmark close"></i>
+          </span>
+          
+        </div>
+        <div class="user">
+            
+          <form>
+            <input type="submit" value="تسجيل الخروج">
+            <h3>مصطفي</h3>
+          </form>
+          
+          <div class="inside">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eampleModal">
+              تسجيل الدخول
+            </button>
+            
+            
+            <div class="modal fade up" id="eampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">البريد الاكتروني</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ادخل البريد الاكتروني">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">كود تفعيل</label>
+                      <input type="text" class="form-control" id="exampleFormControlTextarea1">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    
+        </div>
+      </div>
+      <div class="products">
+        <h3>فئات المنتجات</h3>
+        <div class="btns">
+          <button><a href="#">حاسبات ببجي</a></button>
+          <button><a href="#">اشتراك نتفلكس</a></button>
+          <button><a href="#">حماية جوالك</a></button>
+          <button><a href="#">تخفيضات</a></button>
+          <button><a href="#">اشتراك الايفون ايفون و ايباد</a></button>
+          <button><a href="#">اكواد متنوعة</a></button>
+          <button><a href="#">اشتراك المتجر للا ندرويد</a></button>
+        </div>
+      </div>
+    </div>
+  
+    <div class="navbar">
+      <div class="bars"><i id="menu" class="fa-solid fa-bars"></i>
+        <h3>متجر الممالك</h3></div>
+      <a href="#">
+        <i class="fa-regular fa-bell"></i>
+        <span>3</span>
+      </a>
+    </div>
+  
+    <div class="home">
+      <h3>حسابات فري فاير</h3>
+      <h3>اكواد فري فاير</h3>
+    </div>
+  
+    <!-- Start Carts -->
+    <div class="carts">
+      <h3 class="main-cart">عنوان الصفحة</h3>
+      <div class="box-container">
+
+        <div class="box">
+          <img src="img/cart2.jpg" alt="cat">
+          <div class="content">
+              <h3>لاب توب</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+              <p class="price">   السعر: <span>10$</span></p>
+              <button>شراء</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/cart2.jpg" alt="cat">
+          <div class="content">
+              <h3>لاب توب</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+              <p class="price">   السعر: <span>10$</span></p>
+              <button>شراء</button>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/cart2.jpg" alt="cat">
+          <div class="content">
+              <h3>لاب توب</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+              <p class="price">   السعر: <span>10$</span></p>
+              <button>شراء</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/cart2.jpg" alt="cat">
+          <div class="content">
+              <h3>لاب توب</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+              <p class="price">   السعر: <span>10$</span></p>
+              <button>شراء</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/cart2.jpg" alt="cat">
+          <div class="content">
+              <h3>لاب توب</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+              <p class="price">   السعر: <span>10$</span></p>
+              <button>شراء</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/cart2.jpg" alt="cat">
+          <div class="content">
+              <h3>لاب توب</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+              <p class="price">   السعر: <span>10$</span></p>
+              <button>شراء</button>
+          </div>
+        </div>
+
+        
+
+
+      </div>
+    </div>
+    <!-- End Carts -->
+    
+    <div class="footer">
+      <h3>جميع الحقوق محفوظة بواسطة <span>المماليك</span></h3>
+      <div class="payments">
+        <div><img src="img/foot3.jpg" alt=""></div>
+        <div><img src="img/foot1.jpg" alt=""></div>
+        <div><img src="img/foot2.jpg" alt=""></div>
+        <div><img src="img/foot4.jpg" alt=""></div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+</body>
+</html>
