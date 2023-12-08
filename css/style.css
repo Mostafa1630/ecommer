@@ -271,17 +271,10 @@ body{
 }
 
 .abouts{
-<<<<<<< HEAD
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-    align-items: center;
-=======
   padding: 10rem 5rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
->>>>>>> 671e3ba (mostafa)
   gap: 2rem;
   background: var(--color-black);
 }
@@ -386,13 +379,8 @@ body{
 
 /* Start Carts */
 .carts{
-<<<<<<< HEAD
-  padding: 2rem 4rem;
-    margin:auto;
-=======
   padding: 2rem 7rem;
   margin: auto;
->>>>>>> 671e3ba (mostafa)
 }
 .carts .main-cart{
   padding: 0rem 5rem;
@@ -402,16 +390,8 @@ body{
 }
 .carts .box-container{
   display: grid;
-<<<<<<< HEAD
   grid-template-columns: repeat(auto-fill, minmax(22rem , 1fr));
   gap: 20px;
-}
-@media (max-width:768px){
-  .carts{
-    padding: 2rem 0.5rem;
-=======
-  grid-template-columns: repeat(auto-fill, minmax(23rem , 1fr));
-  gap: 10px;
 }
 @media (max-width:768px){
   .carts{
@@ -419,7 +399,6 @@ body{
   }
   .carts .box-container{
     grid-template-columns: repeat(auto-fill, minmax(16rem , 1fr));
->>>>>>> 671e3ba (mostafa)
   }
 }
 .carts .box-container .box{
@@ -584,4 +563,3 @@ margin-top: 10px;
     height: 100%;
   }
 }
->>>>>>> 671e3ba (mostafa)
