@@ -276,13 +276,14 @@ body{
   background:var(--color-orange);
 }
 
-.abouts{
+
+  .abouts{
   padding: 10rem 5rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  background: var(--color-black);
+  background: rgb(72, 72, 72);
 }
 
 .abouts .conatiner-img{
@@ -320,21 +321,23 @@ body{
     height: 40vh;
   }
   .abouts{
-    padding: 1rem 2rem;
+    padding: 6rem 2rem;
   }
+  
   .abouts .conatiner-img{
-    height: 20vh;
-    width: 100%;
+    height: 18vh;
+    width: 90%;
   }
   .abouts .content-section .card{
     width: 100%;
-    height: 15rem;
+    height: 10rem;
   }
   .abouts .content-section{
-    gap:0.1rem 1rem;
+    gap:1.5rem;
+    margin: 0;
+    padding: 0;
   }
 }
-/* End Sections Cart */
 /* Satrt Footer */
 .footer{
   display: flex;
