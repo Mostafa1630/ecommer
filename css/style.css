@@ -55,6 +55,9 @@ body{
   font-size: 2.6rem;
   cursor: pointer;
 }
+.navbar .bars i{
+  display: none;
+}
 .navbar .bars{
   display: flex;
   gap: 1rem;
@@ -91,6 +94,9 @@ body{
   .navbar i{
     display: block;
   }
+    .navbar .bars i{
+  display: block;
+}
   .setting{
     justify-content: center;
   }
